@@ -1,0 +1,30 @@
+header {
+    background: #bbbbbb;
+    padding: 20px 0; /*espacamento de 20 para cima e baixo e 0 para esquerda e direita*/
+}
+
+.caixa { /*forma de chamar uma classe do html*/
+    position: relative;  
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position : absolute; /*"chamando para frente"*/
+    top : 110px;
+    right : 0;
+}
+
+nav li { /*aqui estou mexendo no item*/
+    display: inline; /*deixando a lista "menu" em linha*/
+    margin: 0 0 0 15px; /*aplicando margem a esquerda de cada opcao de menu*/
+}
+
+nav a { /*aqui estou mexendo no conteudo e não no item*/ 
+    text-transform: uppercase; /*quero texto da minha lista em letra maiuscula*/
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}

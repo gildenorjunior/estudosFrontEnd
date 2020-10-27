@@ -1,0 +1,40 @@
+body { /*REFERÊNCIA COM UMA TAG*/
+    
+}
+
+#banner { /*REFERÊNCIANDO COM UM IDENTIFICADOR*/
+    width: 100%;
+}
+
+.principal {
+    background: #CCCCCC;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+.titulo-centralizado { /*REFERÊNCIANDO UMA CLASSE*/
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px
+}
+
+em strong {
+    color: #ff0000;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.beneficios {
+    background: #FFFFFF;
+}
+

@@ -28,3 +28,27 @@ nav a { /*aqui estou mexendo no conteudo e não no item*/
     text-decoration: none;
 
 }
+
+.produtos { /*mexendo na UL*/
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li { /*ordenando a lista lado a lado*/ 
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+}
